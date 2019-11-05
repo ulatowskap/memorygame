@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    background-color: #060AB2;
+    background-color: rgb(24, 4, 56);
     display: flex;
 
 }
@@ -58,4 +58,22 @@ img {
 
 .front-face {
     transform: rotateY(180deg);
+}
+
+h1 {
+    position: fixed;
+    color: #1c7ccc;
+    top: 20%;
+    left: 2%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+
+h3 {
+    position: fixed;
+    color: #1c7ccc;
+    top: 40%;
+    left: 2%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
 }
